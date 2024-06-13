@@ -1,0 +1,30 @@
+.productcard-back
+{
+   
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+.prime-deals-product-image
+{
+    width: 100%;
+    height: 65%;
+    background-size: cover;
+}
+
+
+.price
+{
+    margin-top: 10px;
+}
+
+.rating
+{
+   
+    width: 30px;
+   margin-left: auto;
+}

@@ -1,0 +1,27 @@
+.all-products-back
+{
+    width: 90%;
+    
+    margin: auto;
+    height: 100vh;
+}
+
+.fliters-group-and-products
+{
+    display: flex;
+
+}
+
+.all-products-products-card
+{
+   
+    width: 74%;
+    margin-top: 10px;
+}
+
+
+.un-list
+{
+    display: flex;
+    flex-wrap: wrap;
+}

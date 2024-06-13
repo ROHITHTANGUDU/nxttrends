@@ -1,0 +1,34 @@
+.products-header-back
+{
+    padding-left: 18px;
+    padding-top: 10px;
+    display: flex;
+    padding-right: 10px;
+}
+
+.search-bar
+{
+    width: 200px;
+}
+
+.products-header-heading
+{
+    margin-left: 40px;
+
+}
+
+.drop-down
+{
+    margin-left: auto;
+    
+    align-self: center;
+    
+}
+
+
+.drop-down-label
+{
+    margin-left: auto;
+    align-self: center;
+    
+}

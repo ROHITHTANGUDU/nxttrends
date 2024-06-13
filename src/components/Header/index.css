@@ -1,0 +1,39 @@
+.header-back
+{
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-logo
+{
+    width: 200px;
+    height: 50px;
+}
+
+.header-labels
+{
+    display: flex;
+   
+    align-self: center;
+}
+
+.header-label
+{
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.logout-button
+{
+
+    width: 60px;
+
+    padding: 6px;
+    background-color: #0b69ff;
+    color: white;
+    border-width: 0px;
+    border-radius: 6px;
+    align-self: center;
+}

@@ -1,0 +1,32 @@
+.home-back
+{
+    padding: 16px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 50vh;
+}
+
+.home-content
+{
+    width: 50%;
+}
+
+.home-image
+{
+    width: 50%;
+    height: 100%;
+}
+
+
+.shopnow-button
+{
+    width: 80px;
+    padding: 6px;
+    background-color: #0b69ff;
+    color: white;
+    border-width: 0px;
+    border-radius: 6px;
+    align-self: center;
+    margin-top: 10px;
+}

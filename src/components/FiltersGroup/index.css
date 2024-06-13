@@ -1,0 +1,48 @@
+.filters-back
+{
+    
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 27%;
+    padding: 8px;
+}
+
+
+.category
+{
+    margin-top: 4px;
+}
+
+.weightproperty
+{
+    font-weight: bold;
+}
+
+.star-rating
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+
+}
+.category-heading
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.star-color
+{
+    color: #0967d2;
+}
+
+.clear-filters-button
+{
+    background-color: transparent;
+    border-style: solid;
+    border-color: #0967d2;
+    color: #0967d2;
+    padding: 4px;
+    border-radius: 6px;
+
+}

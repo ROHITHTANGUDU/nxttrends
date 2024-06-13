@@ -1,0 +1,22 @@
+.primedeals-back
+{
+    padding:10px;
+
+    width: 90%;
+   
+    margin: auto;
+   
+}
+
+.un-list
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.failure-image
+{
+    width: 100%;
+}
