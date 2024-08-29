@@ -29,7 +29,7 @@ const ProductsHeader = ()=>{
                     SortBy: 
                 </label>
                 <select  id="dropdown" onChange={onsortby} value={sortby}>
-                    <option>none</option>
+                    <option></option>
                     <option value = "high">High to Low</option>
                     <option value = "low">Low to high</option>
                 </select>

@@ -25,3 +25,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.no-products-image
+{
+    width: 70%;
+    background-size: cover;
+}

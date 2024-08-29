@@ -1,0 +1,52 @@
+.list-cart-card
+{
+    border-style: solid;
+    margin: 10px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.plus-button
+{
+    margin-right: 10px;
+}
+
+.minus-button
+{
+    margin-left: 10px;
+}
+
+.card-image
+{
+    height: 100%;
+    width: 100px;
+}
+
+
+.image-title-brand
+{
+    display: flex;
+    width: 40%;
+}
+
+
+.title-brand
+{
+    margin-left: 10px;
+}
+
+
+.second-part-cart-card
+{
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.buttons
+{
+    display: flex;
+}

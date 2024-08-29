@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.product-details-back
+{
+    padding: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 95%;
+    height: 55vh;
+    display: flex;
+}
+
+.product-image
+{
+    width: 40%;
+    height: 100%;
+}
+
+.product-details-card
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 60%;
+    height: 100%;
+    padding: 4px;
+}
+
+.weight-property
+{
+    font-weight: bold;
+}
+
+.rating-button
+{
+    width: 50px;
+    background-color: #3b82f6;
+    border-style: none;
+    padding: 4px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border-radius: 3px;
+ 
+}
+
+.rating-reviews-card
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+
+.reviews
+{
+    align-self: center;
+    margin-left: 10px;
+}
+
+.description
+{
+    margin-top: 10px;
+}
+
+.availbility
+{
+    margin-top: 10px;
+}
+
+.brand
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.minus-plus-buttons
+{
+    display: flex;
+    width: 100px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+
+.add-to-cart-button
+{
+    margin-top: 10px;
+    width: 100px;
+    padding: 6px;
+    color: white;
+    background-color: #3b82f6;
+    border-width: 0px;
+    border-radius: 4px;
+
+}
+
+
+
+.similarproducts-heading
+{
+    margin-left: 22px;
+}
+.similarproducts
+{
+    height: 70vh;
+}
+
+
+

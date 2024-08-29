@@ -10,7 +10,7 @@ import AllproductsContext from "../../context/AllproductsContext";
 const AllProducts = ()=>{
 
     const contextdata = useContext(AllproductsContext)
-    const {getallproductsdata,allproductsdata,allproductsdataflag} = contextdata
+    const {getallproductsdata,allproductsdata,allproductsdataflag,failimage} = contextdata
     
 
     useEffect(()=>{
@@ -19,7 +19,7 @@ const AllProducts = ()=>{
 
 
     const renderallproducts = ()=>{
-        console.log(allproductsdata)
+       
         return(
             <ul className="un-list">
                 {allproductsdata.map((each)=>{
@@ -30,6 +30,15 @@ const AllProducts = ()=>{
     }
 
     const renderfailview=()=>{
+       
+        if(failimage === ""){
+            return(
+                <img src = {failimage} alt = "no-products-image1" className = "no-products-image"/>
+                
+            )
+        }
+        return <img src = "https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-no-products-view.png " alt = "no-products-image" className = "no-products-image"/>
+        
 
     }
     return(

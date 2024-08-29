@@ -1,0 +1,33 @@
+.cart-back
+{
+    padding: 18px;
+    border-style: solid;
+}
+
+.remove-all-button
+{
+    color: blue;
+
+}
+
+
+.total-cost
+{
+    margin-left: auto;
+}
+.remove-all-container
+{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.cart-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    list-style-type: none;
+}

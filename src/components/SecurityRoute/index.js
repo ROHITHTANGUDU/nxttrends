@@ -4,7 +4,6 @@ import { Outlet } from "react-router-dom";
 
 const SecurityRoute = ()=>{
     const token = Cookies.get("jwt");
-    console.log(token)
     if(token !== undefined ){
         return <Outlet/>
       
